@@ -5,5 +5,7 @@ func main() {
 	//values()
 	//variables()
 	//constants()
-	forloop()
+	//forloop()
+	//goarray()
+	goslices()
 }
