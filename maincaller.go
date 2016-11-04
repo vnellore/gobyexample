@@ -7,5 +7,10 @@ func main() {
 	//constants()
 	//forloop()
 	//goarray()
-	goslices()
+	//goslices()
+	//gomaps()
+	//gorange()
+	//gofunctions()
+	//gomultireturnvals()
+	govariadicfunc()
 }

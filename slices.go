@@ -32,4 +32,18 @@ func goslices() {
 	s[3] = "xxx"
 	fmt.Println("l: ", l)
 
+	twoD := make([][]int, 3)
+
+	for i := 0; i < 3; i++ {
+		innerLength := i + 1
+
+		twoD[i] = make([]int, innerLength)
+
+		for j := 0; j < innerLength; j++ {
+			twoD[i][j] = i + j
+		}
+	}
+
+	fmt.Println(twoD)
+
 }
