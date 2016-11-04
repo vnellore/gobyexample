@@ -12,5 +12,7 @@ func main() {
 	//gorange()
 	//gofunctions()
 	//gomultireturnvals()
-	govariadicfunc()
+	//govariadicfunc()
+	//goclosures()
+	gorecurse()
 }
